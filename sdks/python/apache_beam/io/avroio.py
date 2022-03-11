@@ -55,7 +55,7 @@ from functools import partial
 import avro
 from avro import io as avroio
 from avro import datafile
-from avro.schema import Parse
+from avro.schema import parse
 from fastavro.read import block_reader
 from fastavro.write import Writer
 
